@@ -1,0 +1,14 @@
+.cron {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.cron p {
+  font-size: 3rem;
+}
+
+@media (max-width: 550px) {
+  .cron p {
+    font-size: 2rem;
+  }
+}

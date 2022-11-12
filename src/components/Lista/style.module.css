@@ -1,0 +1,25 @@
+.title {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.list {
+  width: 40%;
+  position: relative;
+}
+
+@media (max-width: 900px) {
+  .title {
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .list {
+    width: 80%;
+  }
+}
